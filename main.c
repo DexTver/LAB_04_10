@@ -9,7 +9,7 @@ void pprint(int n, int m, int a[n][m]) {
     }
 }
 
-int counts(int m, int a[m]) {
+int counts(int m, const int a[m]) {
     int b[m], ans = 0;
     for (int i = 0; i < m; ++i) {
         b[i] = 0;
